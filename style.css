@@ -4,3 +4,6 @@ td{
 div{
     margin-bottom: 5px;
 }
+fieldset{
+    width: 25%;
+}

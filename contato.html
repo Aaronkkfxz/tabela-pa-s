@@ -8,8 +8,9 @@
     </head>
     <body>
         <h1>entre em contato conosco</h1>
-        <form action="">
-
+        <form action="#">
+            <fieldset >
+                <legend>Dados Iniciais</legend>
             <div>
                 <label for="">Digite seu nome:</label>
                 <input type="text" name="no" id="no" maxlength="15" size="15" placeholder="digite aqui">
@@ -19,12 +20,11 @@
                 <label for="">Digite seu endereço:</label>
                 <input type="text" name="" id="end">
             </div>
+            </fieldset>
 
-            <div>
-                <button type="submit">enviar</button>
-            </div>
-            
-            <form action="#">
+            <fieldset>
+                <legend>Dados Finais</legend>
+
                 <div>
                     <label for="">Qual linguagem gostaria</label>
                     <input type="checkbox" name="" id="css">
@@ -53,9 +53,17 @@
                     </select>
                 </div>
                 <div>
-                    <button type="submit">enviar</button>
+                    <label for="">Deixe seu recado</label>
+                    <br>
+                    <textarea name="rec" id="rec" cols="50" rows="5"></textarea>
                 </div>
-            </form>
+                
+            </fieldset>
+            
+            <div>
+                <button type="reset">Apagar</button>
+                <button type="submit">enviar</button>
+            </div>
             
         </form>
     </body>
